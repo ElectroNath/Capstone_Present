@@ -1,0 +1,472 @@
+[2024-04-17T00:34:58.931+0000] {processor.py:161} INFO - Started process (PID=33597) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:34:58.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T00:34:58.956+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:34:58.953+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:35:00.919+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T00:35:00.926+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:35:00.964+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:35:00.963+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T00:35:00.998+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:35:00.998+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T00:35:01.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.119 seconds
+[2024-04-17T00:35:31.358+0000] {processor.py:161} INFO - Started process (PID=33609) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:35:31.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T00:35:31.362+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:35:31.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:35:32.348+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T00:35:32.356+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T00:35:32.393+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:35:32.392+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T00:35:32.434+0000] {logging_mixin.py:188} INFO - [2024-04-17T00:35:32.434+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T00:35:32.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.115 seconds
+[2024-04-17T01:25:48.570+0000] {processor.py:161} INFO - Started process (PID=33621) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:25:48.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T01:25:48.583+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:25:48.582+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:25:51.012+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T01:25:51.024+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:25:51.097+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:25:51.097+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T01:25:51.161+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:25:51.160+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T01:25:51.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.642 seconds
+[2024-04-17T01:26:21.491+0000] {processor.py:161} INFO - Started process (PID=33639) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:26:21.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T01:26:21.495+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:26:21.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:26:22.302+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T01:26:22.309+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:26:22.347+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:26:22.346+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T01:26:22.384+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:26:22.384+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T01:26:22.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.933 seconds
+[2024-04-17T01:36:03.421+0000] {processor.py:161} INFO - Started process (PID=33651) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:03.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T01:36:03.450+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:03.448+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:07.354+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T01:36:07.372+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:07.455+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:07.454+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T01:36:07.528+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:07.527+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T01:36:07.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.196 seconds
+[2024-04-17T01:36:37.950+0000] {processor.py:161} INFO - Started process (PID=33663) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:37.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T01:36:37.954+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:37.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:38.778+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T01:36:38.784+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:36:38.816+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:38.815+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T01:36:38.848+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:36:38.848+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T01:36:38.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.932 seconds
+[2024-04-17T01:37:19.639+0000] {processor.py:161} INFO - Started process (PID=33675) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:37:19.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T01:37:19.687+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:37:19.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:37:23.821+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T01:37:23.848+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T01:37:23.939+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:37:23.938+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T01:37:24.024+0000] {logging_mixin.py:188} INFO - [2024-04-17T01:37:24.023+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T01:37:24.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.520 seconds
+[2024-04-17T02:37:24.264+0000] {processor.py:161} INFO - Started process (PID=33681) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:24.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T02:37:24.271+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:24.270+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:25.787+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T02:37:25.794+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:25.829+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:25.828+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T02:37:25.863+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:25.862+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T02:37:25.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.643 seconds
+[2024-04-17T02:37:56.179+0000] {processor.py:161} INFO - Started process (PID=33693) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:56.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T02:37:56.185+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:56.184+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:57.047+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T02:37:57.054+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:37:57.086+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:57.086+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T02:37:57.115+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:37:57.115+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T02:37:57.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.971 seconds
+[2024-04-17T02:53:02.529+0000] {processor.py:161} INFO - Started process (PID=33705) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:02.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T02:53:02.547+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:02.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:06.364+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T02:53:06.381+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:06.458+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:06.457+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T02:53:06.575+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:06.574+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T02:53:06.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.299 seconds
+[2024-04-17T02:53:36.962+0000] {processor.py:161} INFO - Started process (PID=33723) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:36.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T02:53:36.966+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:36.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:37.842+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T02:53:37.848+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:53:37.881+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:37.881+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T02:53:37.912+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:53:37.911+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T02:53:37.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.983 seconds
+[2024-04-17T02:54:18.407+0000] {processor.py:161} INFO - Started process (PID=33736) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:54:18.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T02:54:18.428+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:54:18.427+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:54:22.579+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T02:54:22.603+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T02:54:22.683+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:54:22.682+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T02:54:22.751+0000] {logging_mixin.py:188} INFO - [2024-04-17T02:54:22.751+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T02:54:22.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.429 seconds
+[2024-04-17T03:38:31.903+0000] {processor.py:161} INFO - Started process (PID=33742) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:38:31.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T03:38:31.920+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:38:31.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:38:33.698+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T03:38:33.706+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:38:33.745+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:38:33.745+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T03:38:33.781+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:38:33.780+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T03:38:33.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.930 seconds
+[2024-04-17T03:39:04.153+0000] {processor.py:161} INFO - Started process (PID=33754) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:39:04.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T03:39:04.157+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:39:04.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:39:05.817+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T03:39:05.826+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T03:39:05.869+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:39:05.868+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T03:39:05.908+0000] {logging_mixin.py:188} INFO - [2024-04-17T03:39:05.907+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T03:39:05.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.806 seconds
+[2024-04-17T04:39:30.556+0000] {processor.py:161} INFO - Started process (PID=33774) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:39:30.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T04:39:30.575+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:39:30.573+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:39:33.823+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T04:39:33.840+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:39:34.185+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:39:34.184+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T04:39:34.531+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:39:34.531+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T04:39:34.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.085 seconds
+[2024-04-17T04:40:05.117+0000] {processor.py:161} INFO - Started process (PID=33786) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:05.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T04:40:05.121+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:05.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:05.888+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T04:40:05.894+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:05.927+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:05.927+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T04:40:05.960+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:05.959+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T04:40:05.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.876 seconds
+[2024-04-17T04:40:44.093+0000] {processor.py:161} INFO - Started process (PID=33799) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:44.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T04:40:44.189+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:44.187+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:47.966+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T04:40:47.987+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T04:40:48.081+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:48.079+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T04:40:48.162+0000] {logging_mixin.py:188} INFO - [2024-04-17T04:40:48.161+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T04:40:48.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.140 seconds
+[2024-04-17T05:40:54.415+0000] {processor.py:161} INFO - Started process (PID=33805) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:40:54.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T05:40:54.542+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:40:54.541+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:40:57.362+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T05:40:57.389+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:40:57.888+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:40:57.887+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T05:40:58.045+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:40:58.044+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T05:40:58.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 3.727 seconds
+[2024-04-17T05:41:28.415+0000] {processor.py:161} INFO - Started process (PID=33816) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:41:28.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T05:41:28.419+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:41:28.419+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:41:29.185+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T05:41:29.191+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T05:41:29.222+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:41:29.222+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T05:41:29.250+0000] {logging_mixin.py:188} INFO - [2024-04-17T05:41:29.250+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T05:41:29.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.875 seconds
+[2024-04-17T06:41:49.285+0000] {processor.py:161} INFO - Started process (PID=33829) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:41:49.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T06:41:49.293+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:41:49.291+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:41:53.324+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T06:41:53.342+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:41:53.459+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:41:53.458+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T06:41:53.527+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:41:53.526+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T06:41:53.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 4.458 seconds
+[2024-04-17T06:42:23.865+0000] {processor.py:161} INFO - Started process (PID=33841) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:42:23.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T06:42:23.869+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:42:23.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:42:24.998+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T06:42:25.007+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:42:25.051+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:42:25.050+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T06:42:25.097+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:42:25.096+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T06:42:25.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.279 seconds
+[2024-04-17T06:43:04.636+0000] {processor.py:161} INFO - Started process (PID=33859) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:43:04.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T06:43:04.704+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:43:04.702+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:43:08.290+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T06:43:08.305+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T06:43:08.388+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:43:08.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T06:43:08.454+0000] {logging_mixin.py:188} INFO - [2024-04-17T06:43:08.453+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T06:43:08.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 3.899 seconds
+[2024-04-17T07:43:09.781+0000] {processor.py:161} INFO - Started process (PID=33865) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:09.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T07:43:09.787+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:09.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:11.299+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T07:43:11.305+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:11.348+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:11.348+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T07:43:11.381+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:11.380+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T07:43:11.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.637 seconds
+[2024-04-17T07:43:53.701+0000] {processor.py:161} INFO - Started process (PID=33877) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:53.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T07:43:53.714+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:53.712+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:56.198+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T07:43:56.208+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T07:43:56.275+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:56.274+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T07:43:56.324+0000] {logging_mixin.py:188} INFO - [2024-04-17T07:43:56.324+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T07:43:56.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.690 seconds
+[2024-04-17T08:44:22.178+0000] {processor.py:161} INFO - Started process (PID=33889) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:44:22.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T08:44:22.190+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:44:22.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:44:23.404+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T08:44:23.412+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:44:23.448+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:44:23.448+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T08:44:23.487+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:44:23.486+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T08:44:23.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.396 seconds
+[2024-04-17T08:45:03.012+0000] {processor.py:161} INFO - Started process (PID=33901) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:45:03.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T08:45:03.026+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:45:03.024+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:45:06.118+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T08:45:06.138+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T08:45:06.240+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:45:06.239+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T08:45:06.310+0000] {logging_mixin.py:188} INFO - [2024-04-17T08:45:06.310+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T08:45:06.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 3.389 seconds
+[2024-04-17T09:45:32.388+0000] {processor.py:161} INFO - Started process (PID=33913) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T09:45:32.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T09:45:32.391+0000] {logging_mixin.py:188} INFO - [2024-04-17T09:45:32.391+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T09:45:33.737+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T09:45:33.747+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T09:45:33.793+0000] {logging_mixin.py:188} INFO - [2024-04-17T09:45:33.792+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T09:45:33.835+0000] {logging_mixin.py:188} INFO - [2024-04-17T09:45:33.835+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T09:45:33.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.485 seconds
+[2024-04-17T10:46:21.843+0000] {processor.py:161} INFO - Started process (PID=33925) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:21.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T10:46:21.855+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:21.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:24.029+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T10:46:24.041+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:24.097+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:24.096+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T10:46:24.138+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:24.137+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T10:46:24.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.344 seconds
+[2024-04-17T10:46:54.464+0000] {processor.py:161} INFO - Started process (PID=33937) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:54.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T10:46:54.468+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:54.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:55.243+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T10:46:55.250+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T10:46:55.282+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:55.281+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T10:46:55.319+0000] {logging_mixin.py:188} INFO - [2024-04-17T10:46:55.319+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T10:46:55.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.893 seconds
+[2024-04-17T11:06:11.994+0000] {processor.py:161} INFO - Started process (PID=33950) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:12.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T11:06:12.005+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:12.004+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:14.223+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T11:06:14.231+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:14.287+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:14.286+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T11:06:14.334+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:14.333+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T11:06:14.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.399 seconds
+[2024-04-17T11:06:44.639+0000] {processor.py:161} INFO - Started process (PID=33962) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:44.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T11:06:44.642+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:44.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:45.412+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T11:06:45.418+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:06:45.450+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:45.450+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T11:06:45.479+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:06:45.479+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T11:06:45.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.872 seconds
+[2024-04-17T11:47:34.395+0000] {processor.py:161} INFO - Started process (PID=33974) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:47:34.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T11:47:34.408+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:47:34.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:47:36.316+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T11:47:36.327+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:47:36.366+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:47:36.366+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T11:47:36.397+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:47:36.397+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T11:47:36.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.055 seconds
+[2024-04-17T11:48:06.587+0000] {processor.py:161} INFO - Started process (PID=33986) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:48:06.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T11:48:06.591+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:48:06.590+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:48:07.365+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T11:48:07.374+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T11:48:07.406+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:48:07.406+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T11:48:07.435+0000] {logging_mixin.py:188} INFO - [2024-04-17T11:48:07.435+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T11:48:07.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.881 seconds
+[2024-04-17T12:48:44.619+0000] {processor.py:161} INFO - Started process (PID=33998) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:48:44.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T12:48:44.623+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:48:44.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:48:46.484+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T12:48:46.491+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:48:46.525+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:48:46.524+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T12:48:46.557+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:48:46.557+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T12:48:46.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.973 seconds
+[2024-04-17T12:49:16.768+0000] {processor.py:161} INFO - Started process (PID=34010) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:49:16.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T12:49:16.771+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:49:16.771+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:49:17.524+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T12:49:17.531+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T12:49:17.564+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:49:17.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T12:49:17.593+0000] {logging_mixin.py:188} INFO - [2024-04-17T12:49:17.592+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T12:49:17.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.858 seconds
+[2024-04-17T13:06:46.220+0000] {processor.py:161} INFO - Started process (PID=34022) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:06:46.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T13:06:46.227+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:06:46.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:06:47.798+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T13:06:47.805+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:06:47.846+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:06:47.846+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T13:06:47.879+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:06:47.878+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T13:06:47.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.694 seconds
+[2024-04-17T13:07:26.739+0000] {processor.py:161} INFO - Started process (PID=34034) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:07:26.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T13:07:26.786+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:07:26.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:07:28.934+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T13:07:28.974+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:07:29.081+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:07:29.080+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T13:07:29.167+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:07:29.167+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T13:07:29.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.522 seconds
+[2024-04-17T13:50:05.797+0000] {processor.py:161} INFO - Started process (PID=34046) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:50:05.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T13:50:05.804+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:50:05.803+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:50:06.864+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T13:50:06.877+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T13:50:06.916+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:50:06.915+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T13:50:06.957+0000] {logging_mixin.py:188} INFO - [2024-04-17T13:50:06.957+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T13:50:06.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.204 seconds
+[2024-04-17T14:50:55.171+0000] {processor.py:161} INFO - Started process (PID=34058) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T14:50:55.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T14:50:55.185+0000] {logging_mixin.py:188} INFO - [2024-04-17T14:50:55.183+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T14:50:57.250+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T14:50:57.293+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T14:50:57.380+0000] {logging_mixin.py:188} INFO - [2024-04-17T14:50:57.379+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T14:50:57.455+0000] {logging_mixin.py:188} INFO - [2024-04-17T14:50:57.454+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T14:50:57.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.367 seconds
+[2024-04-17T15:52:08.652+0000] {processor.py:161} INFO - Started process (PID=34069) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T15:52:08.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T15:52:08.659+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:52:08.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T15:52:09.829+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T15:52:09.852+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T15:52:09.907+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:52:09.906+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T15:52:09.959+0000] {logging_mixin.py:188} INFO - [2024-04-17T15:52:09.958+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T15:52:10.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.357 seconds
+[2024-04-17T16:53:12.011+0000] {processor.py:161} INFO - Started process (PID=34081) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:12.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T16:53:12.019+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:12.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:14.348+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T16:53:14.423+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:14.556+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:14.555+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T16:53:14.657+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:14.657+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T16:53:14.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.721 seconds
+[2024-04-17T16:53:45.062+0000] {processor.py:161} INFO - Started process (PID=34093) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:45.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T16:53:45.066+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:45.066+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:45.688+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T16:53:45.698+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T16:53:45.738+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:45.738+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T16:53:45.772+0000] {logging_mixin.py:188} INFO - [2024-04-17T16:53:45.771+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T16:53:45.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.750 seconds
+[2024-04-17T17:54:21.686+0000] {processor.py:161} INFO - Started process (PID=34105) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:21.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T17:54:21.704+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:21.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:23.897+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T17:54:23.930+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:24.039+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:24.038+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T17:54:24.112+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:24.111+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T17:54:24.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.520 seconds
+[2024-04-17T17:54:54.433+0000] {processor.py:161} INFO - Started process (PID=34117) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:54.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T17:54:54.437+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:54.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:55.086+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T17:54:55.095+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T17:54:55.139+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:55.138+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T17:54:55.176+0000] {logging_mixin.py:188} INFO - [2024-04-17T17:54:55.175+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T17:54:55.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.780 seconds
+[2024-04-17T18:20:34.635+0000] {processor.py:161} INFO - Started process (PID=34129) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:20:34.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T18:20:34.653+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:20:34.650+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:20:36.544+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T18:20:36.592+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:20:36.700+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:20:36.699+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T18:20:36.786+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:20:36.785+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T18:20:36.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.224 seconds
+[2024-04-17T18:21:07.284+0000] {processor.py:161} INFO - Started process (PID=34141) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:21:07.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T18:21:07.288+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:21:07.287+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:21:07.882+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T18:21:07.891+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:21:07.929+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:21:07.928+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T18:21:07.964+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:21:07.964+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T18:21:07.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.716 seconds
+[2024-04-17T18:55:39.301+0000] {processor.py:161} INFO - Started process (PID=34153) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:55:39.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T18:55:39.305+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:55:39.305+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:55:40.762+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T18:55:40.790+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:55:40.851+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:55:40.850+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T18:55:40.891+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:55:40.890+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T18:55:40.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.628 seconds
+[2024-04-17T18:56:11.204+0000] {processor.py:161} INFO - Started process (PID=34166) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:56:11.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T18:56:11.207+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:56:11.207+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:56:11.850+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T18:56:11.860+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T18:56:11.898+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:56:11.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T18:56:11.932+0000] {logging_mixin.py:188} INFO - [2024-04-17T18:56:11.931+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T18:56:11.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.763 seconds
+[2024-04-17T19:19:20.562+0000] {processor.py:161} INFO - Started process (PID=34178) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:20.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T19:19:20.570+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:20.569+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:22.730+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T19:19:22.777+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:22.879+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:22.878+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T19:19:22.977+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:22.976+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T19:19:23.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.502 seconds
+[2024-04-17T19:19:53.237+0000] {processor.py:161} INFO - Started process (PID=34190) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:53.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T19:19:53.241+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:53.241+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:53.881+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T19:19:53.892+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:19:53.929+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:53.928+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T19:19:53.962+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:19:53.962+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T19:19:53.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.761 seconds
+[2024-04-17T19:56:38.893+0000] {processor.py:161} INFO - Started process (PID=34201) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:56:38.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T19:56:38.905+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:56:38.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:56:40.258+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T19:56:40.288+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:56:40.354+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:56:40.353+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T19:56:40.398+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:56:40.398+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T19:56:40.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.561 seconds
+[2024-04-17T19:57:11.183+0000] {processor.py:161} INFO - Started process (PID=34213) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:57:11.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T19:57:11.187+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:57:11.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:57:11.783+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T19:57:11.792+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T19:57:11.828+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:57:11.827+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T19:57:11.864+0000] {logging_mixin.py:188} INFO - [2024-04-17T19:57:11.863+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T19:57:11.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.718 seconds
+[2024-04-17T20:57:51.238+0000] {processor.py:161} INFO - Started process (PID=34225) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:57:51.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T20:57:51.246+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:57:51.245+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:57:52.365+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T20:57:52.389+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:57:52.438+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:57:52.437+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T20:57:52.481+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:57:52.481+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T20:57:52.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.304 seconds
+[2024-04-17T20:58:22.701+0000] {processor.py:161} INFO - Started process (PID=34237) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:58:22.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T20:58:22.706+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:58:22.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:58:23.515+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T20:58:23.526+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T20:58:23.575+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:58:23.574+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T20:58:23.617+0000] {logging_mixin.py:188} INFO - [2024-04-17T20:58:23.617+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T20:58:24.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.039 seconds
+[2024-04-17T21:58:54.496+0000] {processor.py:161} INFO - Started process (PID=34250) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:58:54.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T21:58:54.514+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:58:54.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:58:57.078+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T21:58:57.155+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:58:57.288+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:58:57.287+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T21:58:57.412+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:58:57.412+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T21:58:57.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 3.111 seconds
+[2024-04-17T21:59:28.207+0000] {processor.py:161} INFO - Started process (PID=34262) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:59:28.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T21:59:28.211+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:59:28.211+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:59:28.883+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T21:59:28.892+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T21:59:28.928+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:59:28.928+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T21:59:28.963+0000] {logging_mixin.py:188} INFO - [2024-04-17T21:59:28.962+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T21:59:28.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.795 seconds
+[2024-04-17T22:00:09.439+0000] {processor.py:161} INFO - Started process (PID=34274) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T22:00:09.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T22:00:09.502+0000] {logging_mixin.py:188} INFO - [2024-04-17T22:00:09.501+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T22:00:11.624+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T22:00:11.681+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T22:00:11.809+0000] {logging_mixin.py:188} INFO - [2024-04-17T22:00:11.807+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T22:00:11.927+0000] {logging_mixin.py:188} INFO - [2024-04-17T22:00:11.926+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T22:00:11.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 2.640 seconds
+[2024-04-17T23:00:15.744+0000] {processor.py:161} INFO - Started process (PID=34280) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:15.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T23:00:15.750+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:15.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:17.181+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T23:00:17.191+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:17.243+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:17.242+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T23:00:17.297+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:17.296+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T23:00:17.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 1.594 seconds
+[2024-04-17T23:00:48.085+0000] {processor.py:161} INFO - Started process (PID=34292) to work on /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:48.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py for tasks to queue
+[2024-04-17T23:00:48.089+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:48.088+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:48.691+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-04-17T23:00:48.701+0000] {processor.py:840} INFO - DAG(s) 'spotify_track_data_extraction_to_s3_v1' retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py
+[2024-04-17T23:00:48.925+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:48.925+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-04-17T23:00:48.955+0000] {logging_mixin.py:188} INFO - [2024-04-17T23:00:48.955+0000] {dag.py:3834} INFO - Setting next_dagrun for spotify_track_data_extraction_to_s3_v1 to 2024-04-16 00:00:00+00:00, run_after=2024-04-17 00:00:00+00:00
+[2024-04-17T23:00:48.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3_Finale.py took 0.903 seconds

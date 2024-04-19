@@ -1,0 +1,2 @@
+[2024-03-20T21:39:36.651+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T21:22:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-03-20T21:39:36.563957+00:00 and task will be retried at 2024-03-20T21:41:31.174457+00:00.
+[2024-03-20T21:39:37.780+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run

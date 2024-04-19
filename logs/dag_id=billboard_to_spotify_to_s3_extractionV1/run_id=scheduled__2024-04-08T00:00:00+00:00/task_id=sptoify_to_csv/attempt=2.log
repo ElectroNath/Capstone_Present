@@ -1,0 +1,130 @@
+[2024-04-09T00:45:52.329+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-04-08T00:00:00+00:00 [queued]>
+[2024-04-09T00:45:52.351+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-04-08T00:00:00+00:00 [queued]>
+[2024-04-09T00:45:52.352+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 6
+[2024-04-09T00:45:52.384+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sptoify_to_csv> on 2024-04-08 00:00:00+00:00
+[2024-04-09T00:45:52.395+0000] {standard_task_runner.py:60} INFO - Started process 55051 to run task
+[2024-04-09T00:45:52.403+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'billboard_to_spotify_to_s3_extractionV1', 'sptoify_to_csv', 'scheduled__2024-04-08T00:00:00+00:00', '--job-id', '1582', '--raw', '--subdir', 'DAGS_FOLDER/billboard_to_spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmp0js7ap9g']
+[2024-04-09T00:45:52.409+0000] {standard_task_runner.py:88} INFO - Job 1582: Subtask sptoify_to_csv
+[2024-04-09T00:45:52.514+0000] {task_command.py:423} INFO - Running <TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-04-08T00:00:00+00:00 [running]> on host bdb7303f046f
+[2024-04-09T00:45:52.687+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='billboard_to_spotify_to_s3_extractionV1' AIRFLOW_CTX_TASK_ID='sptoify_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-04-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-08T00:00:00+00:00'
+[2024-04-09T00:45:52.710+0000] {logging_mixin.py:188} INFO - GOT THE TOP ARTISTS DAT FROM XCOM
+[2024-04-09T00:45:52.711+0000] {logging_mixin.py:188} INFO - GETTING ARTISTS BIO DATA
+[2024-04-09T00:45:53.497+0000] {logging_mixin.py:188} INFO - GETTING ARTISTS ALBUMS DATA
+[2024-04-09T00:45:53.781+0000] {logging_mixin.py:188} INFO - Taylor Swift has appeared on a total of 383 albums
+[2024-04-09T00:45:53.782+0000] {logging_mixin.py:188} INFO -  Now stagging the albums ...
+[2024-04-09T00:45:59.010+0000] {logging_mixin.py:188} INFO -  Taylor Swift albums stagged ... 
+[2024-04-09T00:45:59.011+0000] {logging_mixin.py:188} INFO -  transforming Taylor Swift albums data ... 
+[2024-04-09T00:45:59.012+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:45:59.264+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:45:59.271+0000] {logging_mixin.py:188} INFO -  1989 (Taylor's Version) [Deluxe] tracks stagged ... 
+[2024-04-09T00:45:59.280+0000] {logging_mixin.py:188} INFO -  transforming 1989 (Taylor's Version) [Deluxe] tracks data ... 
+[2024-04-09T00:46:01.683+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:02.140+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:02.147+0000] {logging_mixin.py:188} INFO -  1989 (Taylor's Version) tracks stagged ... 
+[2024-04-09T00:46:02.152+0000] {logging_mixin.py:188} INFO -  transforming 1989 (Taylor's Version) tracks data ... 
+[2024-04-09T00:46:04.402+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:04.660+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:04.667+0000] {logging_mixin.py:188} INFO -  Speak Now (Taylor's Version) tracks stagged ... 
+[2024-04-09T00:46:04.673+0000] {logging_mixin.py:188} INFO -  transforming Speak Now (Taylor's Version) tracks data ... 
+[2024-04-09T00:46:06.915+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:07.247+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:07.262+0000] {logging_mixin.py:188} INFO -  Midnights (The Til Dawn Edition) tracks stagged ... 
+[2024-04-09T00:46:07.347+0000] {logging_mixin.py:188} INFO -  transforming Midnights (The Til Dawn Edition) tracks data ... 
+[2024-04-09T00:46:09.977+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:10.356+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:10.408+0000] {logging_mixin.py:188} INFO -  Midnights (3am Edition) tracks stagged ... 
+[2024-04-09T00:46:10.420+0000] {logging_mixin.py:188} INFO -  transforming Midnights (3am Edition) tracks data ... 
+[2024-04-09T00:46:13.138+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:13.452+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:13.466+0000] {logging_mixin.py:188} INFO -  Midnights tracks stagged ... 
+[2024-04-09T00:46:13.482+0000] {logging_mixin.py:188} INFO -  transforming Midnights tracks data ... 
+[2024-04-09T00:46:15.974+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:16.353+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:16.366+0000] {logging_mixin.py:188} INFO -  Red (Taylor's Version) tracks stagged ... 
+[2024-04-09T00:46:16.391+0000] {logging_mixin.py:188} INFO -  transforming Red (Taylor's Version) tracks data ... 
+[2024-04-09T00:46:18.852+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:19.243+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:19.253+0000] {logging_mixin.py:188} INFO -  Fearless (Taylor's Version) tracks stagged ... 
+[2024-04-09T00:46:19.259+0000] {logging_mixin.py:188} INFO -  transforming Fearless (Taylor's Version) tracks data ... 
+[2024-04-09T00:46:21.836+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:22.203+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:22.212+0000] {logging_mixin.py:188} INFO -  evermore (deluxe version) tracks stagged ... 
+[2024-04-09T00:46:22.231+0000] {logging_mixin.py:188} INFO -  transforming evermore (deluxe version) tracks data ... 
+[2024-04-09T00:46:24.961+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-04-09T00:46:25.261+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-04-09T00:46:25.270+0000] {logging_mixin.py:188} INFO -  evermore tracks stagged ... 
+[2024-04-09T00:46:25.280+0000] {logging_mixin.py:188} INFO -  transforming evermore tracks data ... 
+[2024-04-09T00:46:31.617+0000] {logging_mixin.py:188} INFO - DONE WITH Taylor Swift NOW MOVING TO NEXT ARTIST
+[2024-04-09T00:46:31.972+0000] {logging_mixin.py:188} INFO - GETTING ARTISTS ALBUMS DATA
+[2024-04-09T00:46:32.360+0000] {logging_mixin.py:188} INFO - Future has appeared on a total of 1215 albums
+[2024-04-09T00:46:32.378+0000] {logging_mixin.py:188} INFO -  Now stagging the albums ...
+[2024-04-09T00:49:03.138+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 469, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/billboard_to_spotify_to_csvs_to_s3.py", line 118, in Spotify_to_CSV
+    artist_albm = sp.next(artist_albm)
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 347, in next
+    return self._get(result["next"])
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 323, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 266, in _internal_call
+    response = self._session.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+[2024-04-09T00:49:03.312+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=billboard_to_spotify_to_s3_extractionV1, task_id=sptoify_to_csv, execution_date=20240408T000000, start_date=20240409T004552, end_date=20240409T004903
+[2024-04-09T00:49:03.846+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1582 for task sptoify_to_csv (HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5); 55051)
+[2024-04-09T00:49:04.213+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-09T00:49:04.450+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

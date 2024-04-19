@@ -1,0 +1,26 @@
+[2024-03-20T13:22:08.134+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction.create_s3_connection scheduled__2024-03-20T13:12:00+00:00 [queued]>
+[2024-03-20T13:22:08.266+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction.create_s3_connection scheduled__2024-03-20T13:12:00+00:00 [queued]>
+[2024-03-20T13:22:08.277+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 7
+[2024-03-20T13:22:08.447+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): create_s3_connection> on 2024-03-20 13:12:00+00:00
+[2024-03-20T13:22:08.480+0000] {standard_task_runner.py:60} INFO - Started process 813 to run task
+[2024-03-20T13:22:08.522+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_s3_data_extraction', 'create_s3_connection', 'scheduled__2024-03-20T13:12:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmp04uy0ier']
+[2024-03-20T13:22:08.540+0000] {standard_task_runner.py:88} INFO - Job 22: Subtask create_s3_connection
+[2024-03-20T13:22:09.120+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_s3_data_extraction.create_s3_connection scheduled__2024-03-20T13:12:00+00:00 [running]> on host 1f7d9a6abca8
+[2024-03-20T13:22:10.116+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='spotify_to_s3_data_extraction' AIRFLOW_CTX_TASK_ID='create_s3_connection' AIRFLOW_CTX_EXECUTION_DATE='2024-03-20T13:12:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-20T13:12:00+00:00'
+[2024-03-20T13:22:10.123+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 143, in _create_connection
+    raise AirflowFailException("Environment variables were not passed")
+airflow.exceptions.AirflowFailException: Environment variables were not passed
+[2024-03-20T13:22:10.218+0000] {taskinstance.py:1149} INFO - Immediate failure requested. Marking task as FAILED. dag_id=spotify_to_s3_data_extraction, task_id=create_s3_connection, execution_date=20240320T131200, start_date=20240320T132208, end_date=20240320T132210
+[2024-03-20T13:22:10.294+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 22 for task create_s3_connection (Environment variables were not passed; 813)
+[2024-03-20T13:22:10.365+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-20T13:22:10.483+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

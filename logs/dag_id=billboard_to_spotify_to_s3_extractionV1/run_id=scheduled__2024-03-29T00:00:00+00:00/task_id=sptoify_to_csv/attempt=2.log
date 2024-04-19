@@ -1,0 +1,306 @@
+[2024-03-30T00:36:24.187+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-03-29T00:00:00+00:00 [queued]>
+[2024-03-30T00:36:24.218+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-03-29T00:00:00+00:00 [queued]>
+[2024-03-30T00:36:24.222+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 6
+[2024-03-30T00:36:24.262+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sptoify_to_csv> on 2024-03-29 00:00:00+00:00
+[2024-03-30T00:36:24.276+0000] {standard_task_runner.py:60} INFO - Started process 5524 to run task
+[2024-03-30T00:36:24.284+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'billboard_to_spotify_to_s3_extractionV1', 'sptoify_to_csv', 'scheduled__2024-03-29T00:00:00+00:00', '--job-id', '1509', '--raw', '--subdir', 'DAGS_FOLDER/billboard_to_spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmpclf9zljw']
+[2024-03-30T00:36:24.294+0000] {standard_task_runner.py:88} INFO - Job 1509: Subtask sptoify_to_csv
+[2024-03-30T00:36:24.411+0000] {task_command.py:423} INFO - Running <TaskInstance: billboard_to_spotify_to_s3_extractionV1.sptoify_to_csv scheduled__2024-03-29T00:00:00+00:00 [running]> on host bdb7303f046f
+[2024-03-30T00:36:24.694+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='billboard_to_spotify_to_s3_extractionV1' AIRFLOW_CTX_TASK_ID='sptoify_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T00:00:00+00:00'
+[2024-03-30T00:36:24.734+0000] {logging_mixin.py:188} INFO - GOT THE TOP ARTISTS DAT FROM XCOM
+[2024-03-30T00:36:24.739+0000] {logging_mixin.py:188} INFO - GETTING ARTISTS BIO DATA
+[2024-03-30T00:36:25.238+0000] {logging_mixin.py:188} INFO - GETTING ARTISTS ALBUMS DATA
+[2024-03-30T00:36:25.533+0000] {logging_mixin.py:188} INFO - Taylor Swift has appeared on a total of 385 albums
+[2024-03-30T00:36:25.535+0000] {logging_mixin.py:188} INFO -  Now stagging the albums ...
+[2024-03-30T00:36:31.398+0000] {logging_mixin.py:188} INFO -  Taylor Swift albums stagged ... 
+[2024-03-30T00:36:31.460+0000] {logging_mixin.py:188} INFO -  transforming Taylor Swift albums data ... 
+[2024-03-30T00:36:31.473+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:31.902+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:31.914+0000] {logging_mixin.py:188} INFO -  1989 (Taylor's Version) [Deluxe] tracks stagged ... 
+[2024-03-30T00:36:31.927+0000] {logging_mixin.py:188} INFO -  transforming 1989 (Taylor's Version) [Deluxe] tracks data ... 
+[2024-03-30T00:36:34.188+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:34.480+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:34.490+0000] {logging_mixin.py:188} INFO -  1989 (Taylor's Version) tracks stagged ... 
+[2024-03-30T00:36:34.502+0000] {logging_mixin.py:188} INFO -  transforming 1989 (Taylor's Version) tracks data ... 
+[2024-03-30T00:36:36.678+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:36.981+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:36.989+0000] {logging_mixin.py:188} INFO -  Speak Now (Taylor's Version) tracks stagged ... 
+[2024-03-30T00:36:36.997+0000] {logging_mixin.py:188} INFO -  transforming Speak Now (Taylor's Version) tracks data ... 
+[2024-03-30T00:36:39.985+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:40.323+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:40.333+0000] {logging_mixin.py:188} INFO -  Midnights (The Til Dawn Edition) tracks stagged ... 
+[2024-03-30T00:36:40.344+0000] {logging_mixin.py:188} INFO -  transforming Midnights (The Til Dawn Edition) tracks data ... 
+[2024-03-30T00:36:42.539+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:42.784+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:42.791+0000] {logging_mixin.py:188} INFO -  Midnights (3am Edition) tracks stagged ... 
+[2024-03-30T00:36:42.797+0000] {logging_mixin.py:188} INFO -  transforming Midnights (3am Edition) tracks data ... 
+[2024-03-30T00:36:44.985+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:45.230+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:45.240+0000] {logging_mixin.py:188} INFO -  Midnights tracks stagged ... 
+[2024-03-30T00:36:45.249+0000] {logging_mixin.py:188} INFO -  transforming Midnights tracks data ... 
+[2024-03-30T00:36:47.292+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:47.609+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:47.621+0000] {logging_mixin.py:188} INFO -  Red (Taylor's Version) tracks stagged ... 
+[2024-03-30T00:36:47.629+0000] {logging_mixin.py:188} INFO -  transforming Red (Taylor's Version) tracks data ... 
+[2024-03-30T00:36:49.818+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:49.770+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:49.778+0000] {logging_mixin.py:188} INFO -  Fearless (Taylor's Version) tracks stagged ... 
+[2024-03-30T00:36:49.788+0000] {logging_mixin.py:188} INFO -  transforming Fearless (Taylor's Version) tracks data ... 
+[2024-03-30T00:36:53.088+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:36:53.370+0000] {logging_mixin.py:188} INFO -  Now stagging the tracks ...
+[2024-03-30T00:36:53.382+0000] {logging_mixin.py:188} INFO -  evermore (deluxe version) tracks stagged ... 
+[2024-03-30T00:36:53.391+0000] {logging_mixin.py:188} INFO -  transforming evermore (deluxe version) tracks data ... 
+[2024-03-30T00:52:38.819+0000] {logging_mixin.py:188} INFO - GETTING ALBUMS TRACKS DATA
+[2024-03-30T00:52:38.899+0000] {local_task_job_runner.py:211} ERROR - Heartbeat time limit exceeded!
+[2024-03-30T00:52:39.147+0000] {process_utils.py:131} INFO - Sending 15 to group 5524. PIDs of all processes in the group: [5524]
+[2024-03-30T00:52:39.152+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 5524
+[2024-03-30T00:52:39.168+0000] {taskinstance.py:2483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-03-30T00:52:39.192+0000] {logging_mixin.py:188} WARNING - --- Logging error ---
+[2024-03-30T00:52:39.319+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-03-30T00:52:39.338+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+[2024-03-30T00:52:39.360+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+[2024-03-30T00:52:39.373+0000] {logging_mixin.py:188} WARNING -   File "<string>", line 3, in raise_from
+[2024-03-30T00:52:39.382+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+[2024-03-30T00:52:39.388+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+[2024-03-30T00:52:39.395+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+[2024-03-30T00:52:39.415+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+[2024-03-30T00:52:39.418+0000] {logging_mixin.py:188} WARNING - http.client.RemoteDisconnected: Remote end closed connection without response
+[2024-03-30T00:52:39.441+0000] {logging_mixin.py:188} WARNING - 
+During handling of the above exception, another exception occurred:
+[2024-03-30T00:52:39.449+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-03-30T00:52:39.462+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+[2024-03-30T00:52:39.465+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+[2024-03-30T00:52:39.468+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+[2024-03-30T00:52:39.488+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+[2024-03-30T00:52:39.491+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+[2024-03-30T00:52:39.494+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+[2024-03-30T00:52:39.499+0000] {logging_mixin.py:188} WARNING -   File "<string>", line 3, in raise_from
+[2024-03-30T00:52:39.500+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+[2024-03-30T00:52:39.502+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+[2024-03-30T00:52:39.504+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+[2024-03-30T00:52:39.507+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+[2024-03-30T00:52:39.509+0000] {logging_mixin.py:188} WARNING - urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2024-03-30T00:52:39.520+0000] {logging_mixin.py:188} WARNING - 
+During handling of the above exception, another exception occurred:
+[2024-03-30T00:52:39.523+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-03-30T00:52:39.541+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2360, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+[2024-03-30T00:52:39.562+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2532, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+[2024-03-30T00:52:39.571+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2549, in _execute_task
+    return _execute_task(self, context, task_orig)
+[2024-03-30T00:52:39.573+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+[2024-03-30T00:52:39.575+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+[2024-03-30T00:52:39.581+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+[2024-03-30T00:52:39.583+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+[2024-03-30T00:52:39.585+0000] {logging_mixin.py:188} WARNING -   File "/opt/***/dags/billboard_to_spotify_to_csvs_to_s3.py", line 140, in Spotify_to_CSV
+    album_tracks = sp.album_tracks(album['id'])
+[2024-03-30T00:52:39.587+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/spotipy/client.py", line 475, in album_tracks
+    return self._get(
+[2024-03-30T00:52:39.590+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/spotipy/client.py", line 323, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+[2024-03-30T00:52:39.591+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/spotipy/client.py", line 266, in _internal_call
+    response = self._session.request(
+[2024-03-30T00:52:39.594+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+[2024-03-30T00:52:39.600+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+[2024-03-30T00:52:39.603+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+[2024-03-30T00:52:39.608+0000] {logging_mixin.py:188} WARNING - requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2024-03-30T00:52:39.619+0000] {logging_mixin.py:188} WARNING - 
+During handling of the above exception, another exception occurred:
+[2024-03-30T00:52:39.620+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2024-03-30T00:52:39.622+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1085, in emit
+    msg = self.format(record)
+[2024-03-30T00:52:39.623+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 929, in format
+    return fmt.format(record)
+[2024-03-30T00:52:39.627+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 676, in format
+    record.exc_text = self.formatException(record.exc_info)
+[2024-03-30T00:52:39.628+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 626, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+[2024-03-30T00:52:39.629+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 103, in print_exception
+    for line in TracebackException(
+[2024-03-30T00:52:39.803+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 508, in __init__
+    self.stack = StackSummary.extract(
+[2024-03-30T00:52:39.814+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 366, in extract
+    f.line
+[2024-03-30T00:52:39.817+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/traceback.py", line 288, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+[2024-03-30T00:52:39.823+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/linecache.py", line 16, in getline
+    lines = getlines(filename, module_globals)
+[2024-03-30T00:52:39.855+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+[2024-03-30T00:52:39.863+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/linecache.py", line 95, in updatecache
+    stat = os.stat(fullname)
+[2024-03-30T00:52:39.866+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2485, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+[2024-03-30T00:52:39.896+0000] {logging_mixin.py:188} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal
+[2024-03-30T00:52:39.904+0000] {logging_mixin.py:188} WARNING - Call stack:
+[2024-03-30T00:52:40.294+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/bin/***", line 8, in <module>
+    sys.exit(main())
+[2024-03-30T00:52:40.323+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/__main__.py", line 57, in main
+    args.func(args)
+[2024-03-30T00:52:40.338+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.357+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-03-30T00:52:40.361+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/cli/celery_command.py", line 60, in wrapper
+    providers_configuration_loaded(func)(*args, **kwargs)
+[2024-03-30T00:52:40.400+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/providers_configuration_loader.py", line 55, in wrapped_function
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.444+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/cli/celery_command.py", line 231, in worker
+    _run_command_with_daemon_option(
+[2024-03-30T00:52:40.464+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/cli/celery_command.py", line 46, in _run_command_with_daemon_option
+    run_command_with_daemon_option(*args, **kwargs)
+[2024-03-30T00:52:40.486+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/daemon_utils.py", line 86, in run_command_with_daemon_option
+    callback()
+[2024-03-30T00:52:40.506+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/cli/celery_command.py", line 224, in run_celery_worker
+    celery_app.worker_main(options)
+[2024-03-30T00:52:40.508+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/app/base.py", line 389, in worker_main
+    self.start(argv=argv)
+[2024-03-30T00:52:40.511+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/app/base.py", line 369, in start
+    celery.main(args=argv, standalone_mode=False)
+[2024-03-30T00:52:40.517+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+[2024-03-30T00:52:40.529+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[2024-03-30T00:52:40.565+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+[2024-03-30T00:52:40.606+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+[2024-03-30T00:52:40.627+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/click/decorators.py", line 33, in new_func
+    return f(get_current_context(), *args, **kwargs)
+[2024-03-30T00:52:40.629+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/bin/base.py", line 134, in caller
+    return f(ctx, *args, **kwargs)
+[2024-03-30T00:52:40.632+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/bin/worker.py", line 356, in worker
+    worker.start()
+[2024-03-30T00:52:40.633+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/worker/worker.py", line 202, in start
+    self.blueprint.start(self)
+[2024-03-30T00:52:40.635+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+[2024-03-30T00:52:40.636+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/bootsteps.py", line 365, in start
+    return self.obj.start()
+[2024-03-30T00:52:40.638+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/concurrency/base.py", line 130, in start
+    self.on_start()
+[2024-03-30T00:52:40.639+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/concurrency/prefork.py", line 109, in on_start
+    P = self._pool = Pool(processes=self.limit,
+[2024-03-30T00:52:40.641+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/concurrency/asynpool.py", line 464, in __init__
+    super().__init__(processes, *args, **kwargs)
+[2024-03-30T00:52:40.643+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/pool.py", line 1045, in __init__
+    self._create_worker_process(i)
+[2024-03-30T00:52:40.645+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/concurrency/asynpool.py", line 482, in _create_worker_process
+    return super()._create_worker_process(i)
+[2024-03-30T00:52:40.647+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/pool.py", line 1157, in _create_worker_process
+    w.start()
+[2024-03-30T00:52:40.649+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/process.py", line 120, in start
+    self._popen = self._Popen(self)
+[2024-03-30T00:52:40.651+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/context.py", line 331, in _Popen
+    return Popen(process_obj)
+[2024-03-30T00:52:40.653+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/popen_fork.py", line 22, in __init__
+    self._launch(process_obj)
+[2024-03-30T00:52:40.655+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/popen_fork.py", line 77, in _launch
+    code = process_obj._bootstrap()
+[2024-03-30T00:52:40.657+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/process.py", line 323, in _bootstrap
+    self.run()
+[2024-03-30T00:52:40.659+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/process.py", line 110, in run
+    self._target(*self._args, **self._kwargs)
+[2024-03-30T00:52:40.661+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/pool.py", line 291, in __call__
+    sys.exit(self.workloop(pid=pid))
+[2024-03-30T00:52:40.671+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/billiard/pool.py", line 361, in workloop
+    result = (True, prepare_result(fun(*args, **kwargs)))
+[2024-03-30T00:52:40.672+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/app/trace.py", line 675, in fast_trace_task
+    R, I, T, Rstr = tasks[task].__trace__(
+[2024-03-30T00:52:40.675+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/app/trace.py", line 477, in trace_task
+    R = retval = fun(*args, **kwargs)
+[2024-03-30T00:52:40.676+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/celery/app/trace.py", line 760, in __protected_call__
+    return self.run(*args, **kwargs)
+[2024-03-30T00:52:40.679+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/executors/celery_executor_utils.py", line 135, in execute_command
+    _execute_in_fork(command_to_exec, celery_task_id)
+[2024-03-30T00:52:40.682+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/providers/celery/executors/celery_executor_utils.py", line 169, in _execute_in_fork
+    args.func(args)
+[2024-03-30T00:52:40.683+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.685+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-03-30T00:52:40.687+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 438, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2024-03-30T00:52:40.688+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 216, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+[2024-03-30T00:52:40.690+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 278, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+[2024-03-30T00:52:40.691+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-03-30T00:52:40.692+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 393, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+[2024-03-30T00:52:40.694+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/job.py", line 422, in execute_job
+    ret = execute_callable()
+[2024-03-30T00:52:40.695+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/jobs/local_task_job_runner.py", line 165, in _execute
+    self.task_runner.start()
+[2024-03-30T00:52:40.696+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 48, in start
+    self.process = self._start_by_fork()
+[2024-03-30T00:52:40.698+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/task/task_runner/standard_task_runner.py", line 100, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+[2024-03-30T00:52:40.699+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.700+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+[2024-03-30T00:52:40.701+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 438, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+[2024-03-30T00:52:40.702+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 218, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+[2024-03-30T00:52:40.704+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/cli/commands/task_command.py", line 297, in _run_raw_task
+    return ti._run_raw_task(
+[2024-03-30T00:52:40.705+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+[2024-03-30T00:52:40.707+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2423, in _run_raw_task
+    self.handle_failure(e, test_mode, context, session=session)
+[2024-03-30T00:52:40.708+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.709+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2827, in handle_failure
+    _handle_failure(
+[2024-03-30T00:52:40.710+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 819, in _handle_failure
+    failure_context = TaskInstance.fetch_handle_failure_context(
+[2024-03-30T00:52:40.712+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.714+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+[2024-03-30T00:52:40.715+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/models/taskinstance.py", line 2731, in fetch_handle_failure_context
+    cls.logger().error("Task failed with exception", exc_info=(type(error), error, tb))
+[2024-03-30T00:52:40.716+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1475, in error
+    self._log(ERROR, msg, args, **kwargs)
+[2024-03-30T00:52:40.717+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+[2024-03-30T00:52:40.718+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+[2024-03-30T00:52:40.719+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+[2024-03-30T00:52:40.720+0000] {logging_mixin.py:188} WARNING -   File "/usr/local/lib/python3.8/logging/__init__.py", line 954, in handle
+    self.emit(record)
+[2024-03-30T00:52:40.721+0000] {logging_mixin.py:188} WARNING -   File "/home/***/.local/lib/python3.8/site-packages/***/utils/log/file_task_handler.py", line 272, in emit
+    self.handler.emit(record)
+[2024-03-30T00:52:40.722+0000] {logging_mixin.py:188} WARNING - Message: 'Task failed with exception'
+Arguments: ()
+[2024-03-30T00:52:40.825+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=billboard_to_spotify_to_s3_extractionV1, task_id=sptoify_to_csv, execution_date=20240329T000000, start_date=20240330T003624, end_date=20240330T005240
+[2024-03-30T00:52:40.951+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1509 for task sptoify_to_csv (('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); 5524)
+[2024-03-30T00:52:41.010+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=5524, status='terminated', exitcode=1, started='00:36:23') (5524) terminated with exit code 1

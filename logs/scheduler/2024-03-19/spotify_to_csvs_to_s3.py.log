@@ -1,0 +1,1184 @@
+[2024-03-19T21:59:10.062+0000] {processor.py:161} INFO - Started process (PID=9101) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:10.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T21:59:10.067+0000] {logging_mixin.py:188} INFO - [2024-03-19T21:59:10.067+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:10.780+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T21:59:10.781+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T21:59:10.788+0000] {logging_mixin.py:188} INFO - [2024-03-19T21:59:10.784+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T21:59:10.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:10.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.751 seconds
+[2024-03-19T21:59:41.304+0000] {processor.py:161} INFO - Started process (PID=9158) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:41.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T21:59:41.309+0000] {logging_mixin.py:188} INFO - [2024-03-19T21:59:41.308+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:41.998+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T21:59:41.999+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T21:59:42.007+0000] {logging_mixin.py:188} INFO - [2024-03-19T21:59:42.005+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T21:59:42.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T21:59:42.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.732 seconds
+[2024-03-19T22:00:43.697+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:00:43.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:00:43.742+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:00:43.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:00:45.361+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:00:45.363+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:00:45.389+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:00:45.380+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:00:45.392+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:00:45.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 1.830 seconds
+[2024-03-19T22:01:16.092+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:16.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:01:16.096+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:01:16.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:17.365+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:01:17.366+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:01:17.381+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:01:17.377+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:01:17.382+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:17.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 1.349 seconds
+[2024-03-19T22:01:48.179+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:48.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:01:48.184+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:01:48.183+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:48.823+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:01:48.830+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:01:48.837+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:01:48.834+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:01:48.838+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:01:48.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.683 seconds
+[2024-03-19T22:02:19.727+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:19.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:02:19.731+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:02:19.731+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:20.238+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:02:20.240+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:02:20.244+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:02:20.243+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:02:20.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:20.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.565 seconds
+[2024-03-19T22:02:51.215+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:51.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:02:51.222+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:02:51.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:51.838+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:02:51.839+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:02:51.843+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:02:51.842+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:02:51.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:02:51.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.655 seconds
+[2024-03-19T22:03:22.095+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:22.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:03:22.111+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:03:22.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:24.042+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:03:24.046+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:03:24.065+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:03:24.058+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:03:24.068+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:24.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 2.056 seconds
+[2024-03-19T22:03:54.400+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:54.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:03:54.403+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:03:54.402+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:55.028+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:03:55.029+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:03:55.034+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:03:55.033+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:03:55.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:03:55.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.662 seconds
+[2024-03-19T22:04:25.196+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:25.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:04:25.200+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:04:25.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:25.765+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:04:25.766+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:04:25.771+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:04:25.770+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:04:25.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:25.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.597 seconds
+[2024-03-19T22:04:56.257+0000] {processor.py:161} INFO - Started process (PID=510) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:56.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:04:56.261+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:04:56.261+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:56.765+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:04:56.766+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:04:56.771+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:04:56.769+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:04:56.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:04:56.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.534 seconds
+[2024-03-19T22:05:26.823+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:26.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:05:26.828+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:05:26.828+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:27.470+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:05:27.471+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:05:27.476+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:05:27.475+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:05:27.477+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:27.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.680 seconds
+[2024-03-19T22:05:57.955+0000] {processor.py:161} INFO - Started process (PID=624) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:57.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:05:57.958+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:05:57.958+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:58.517+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:05:58.518+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:05:58.523+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:05:58.521+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:05:58.523+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:05:58.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.593 seconds
+[2024-03-19T22:06:28.592+0000] {processor.py:161} INFO - Started process (PID=684) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:28.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:06:28.595+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:06:28.595+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:29.071+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:06:29.072+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:06:29.076+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:06:29.075+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:06:29.076+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:29.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.504 seconds
+[2024-03-19T22:06:59.145+0000] {processor.py:161} INFO - Started process (PID=739) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:59.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:06:59.150+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:06:59.149+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:59.650+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:06:59.650+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:06:59.654+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:06:59.653+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:06:59.655+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:06:59.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.531 seconds
+[2024-03-19T22:07:30.598+0000] {processor.py:161} INFO - Started process (PID=799) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:07:30.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:07:30.626+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:07:30.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:07:31.170+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:07:31.171+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:07:31.175+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:07:31.174+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:07:31.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:07:31.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.623 seconds
+[2024-03-19T22:08:01.773+0000] {processor.py:161} INFO - Started process (PID=856) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:01.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:08:01.777+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:08:01.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:02.279+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:08:02.280+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:08:02.285+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:08:02.283+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:08:02.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:02.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.556 seconds
+[2024-03-19T22:08:32.363+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:32.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:08:32.367+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:08:32.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:33.247+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:08:33.248+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:08:33.272+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:08:33.268+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:08:33.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:08:33.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.986 seconds
+[2024-03-19T22:09:03.881+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:03.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:09:03.891+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:09:03.891+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:04.498+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:09:04.499+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:09:04.503+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:09:04.502+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:09:04.504+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:04.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.647 seconds
+[2024-03-19T22:09:34.635+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:34.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:09:34.638+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:09:34.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:35.357+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:09:35.357+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:09:35.373+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:09:35.371+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:09:35.374+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:09:35.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.806 seconds
+[2024-03-19T22:10:06.053+0000] {processor.py:161} INFO - Started process (PID=1089) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:06.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:10:06.057+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:10:06.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:06.548+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:10:06.549+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:10:06.553+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:10:06.552+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:10:06.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:06.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.519 seconds
+[2024-03-19T22:10:37.530+0000] {processor.py:161} INFO - Started process (PID=1148) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:37.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:10:37.534+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:10:37.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:38.019+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:10:38.020+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:10:38.024+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:10:38.023+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:10:38.025+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:10:38.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.514 seconds
+[2024-03-19T22:11:08.787+0000] {processor.py:161} INFO - Started process (PID=1205) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:08.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:11:08.790+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:11:08.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:09.494+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:11:09.495+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:11:09.501+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:11:09.499+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:11:09.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:09.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.744 seconds
+[2024-03-19T22:11:39.575+0000] {processor.py:161} INFO - Started process (PID=1265) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:39.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:11:39.580+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:11:39.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:40.063+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:11:40.064+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:11:40.069+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:11:40.068+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:11:40.070+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:11:40.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.514 seconds
+[2024-03-19T22:12:10.877+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:10.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:12:10.880+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:12:10.880+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:11.386+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:12:11.387+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:12:11.391+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:12:11.390+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:12:11.392+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:11.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.536 seconds
+[2024-03-19T22:12:41.505+0000] {processor.py:161} INFO - Started process (PID=1379) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:41.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:12:41.511+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:12:41.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:42.026+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:12:42.027+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:12:42.031+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:12:42.030+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:12:42.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:12:42.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.548 seconds
+[2024-03-19T22:13:12.097+0000] {processor.py:161} INFO - Started process (PID=1439) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:12.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:13:12.101+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:13:12.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:12.608+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:13:12.609+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:13:12.614+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:13:12.612+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:13:12.614+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:12.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.538 seconds
+[2024-03-19T22:13:43.295+0000] {processor.py:161} INFO - Started process (PID=1502) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:43.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:13:43.306+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:13:43.305+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:43.934+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:13:43.935+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:13:43.940+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:13:43.939+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:13:43.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:13:43.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.671 seconds
+[2024-03-19T22:14:14.088+0000] {processor.py:161} INFO - Started process (PID=1563) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:14.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:14:14.092+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:14:14.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:14.601+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:14:14.602+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:14:14.606+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:14:14.605+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:14:14.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:14.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.538 seconds
+[2024-03-19T22:14:45.528+0000] {processor.py:161} INFO - Started process (PID=1623) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:45.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:14:45.532+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:14:45.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:46.147+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:14:46.148+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:14:46.153+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:14:46.151+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:14:46.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:14:46.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.651 seconds
+[2024-03-19T22:15:16.628+0000] {processor.py:161} INFO - Started process (PID=1680) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:16.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:15:16.632+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:15:16.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:17.111+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:15:17.112+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:15:17.116+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:15:17.115+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:15:17.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:17.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.509 seconds
+[2024-03-19T22:15:47.182+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:47.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:15:47.186+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:15:47.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:47.659+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:15:47.660+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:15:47.665+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:15:47.663+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:15:47.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:15:47.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.503 seconds
+[2024-03-19T22:16:18.430+0000] {processor.py:161} INFO - Started process (PID=1798) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:18.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:16:18.433+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:16:18.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:18.919+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:16:18.920+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:16:18.924+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:16:18.923+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:16:18.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:18.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.514 seconds
+[2024-03-19T22:16:49.009+0000] {processor.py:161} INFO - Started process (PID=1855) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:49.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:16:49.012+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:16:49.012+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:49.524+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:16:49.524+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:16:49.528+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:16:49.527+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:16:49.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:16:49.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.540 seconds
+[2024-03-19T22:17:19.580+0000] {processor.py:161} INFO - Started process (PID=1915) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:19.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:17:19.584+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:17:19.584+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:20.103+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:17:20.103+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:17:20.108+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:17:20.106+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:17:20.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:20.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.547 seconds
+[2024-03-19T22:17:50.476+0000] {processor.py:161} INFO - Started process (PID=1969) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:50.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:17:50.480+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:17:50.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:51.265+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:17:51.267+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:17:51.272+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:17:51.271+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:17:51.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:17:51.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.827 seconds
+[2024-03-19T22:18:22.155+0000] {processor.py:161} INFO - Started process (PID=2030) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:22.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:18:22.159+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:18:22.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:22.625+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:18:22.626+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:18:22.630+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:18:22.629+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:18:22.631+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:22.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.496 seconds
+[2024-03-19T22:18:53.173+0000] {processor.py:161} INFO - Started process (PID=2087) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:53.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:18:53.178+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:18:53.178+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:53.706+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:18:53.707+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:18:53.711+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:18:53.710+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:18:53.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:18:53.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.560 seconds
+[2024-03-19T22:19:24.206+0000] {processor.py:161} INFO - Started process (PID=2144) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:24.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:19:24.210+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:19:24.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:24.721+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:19:24.721+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:19:24.725+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:19:24.724+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:19:24.726+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:24.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.540 seconds
+[2024-03-19T22:19:55.696+0000] {processor.py:161} INFO - Started process (PID=2203) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:55.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:19:55.699+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:19:55.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:56.177+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:19:56.178+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:19:56.182+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:19:56.181+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:19:56.183+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:19:56.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.509 seconds
+[2024-03-19T22:20:26.799+0000] {processor.py:161} INFO - Started process (PID=2260) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:26.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:20:26.804+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:20:26.803+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:27.388+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:20:27.389+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:20:27.394+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:20:27.392+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:20:27.395+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:27.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.626 seconds
+[2024-03-19T22:20:57.496+0000] {processor.py:161} INFO - Started process (PID=2317) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:57.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:20:57.499+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:20:57.498+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:57.998+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:20:57.999+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:20:58.004+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:20:58.003+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:20:58.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:20:58.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.528 seconds
+[2024-03-19T22:21:28.312+0000] {processor.py:161} INFO - Started process (PID=2374) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:21:28.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:21:28.315+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:21:28.315+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:21:28.670+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:21:28.671+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:21:28.676+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:21:28.674+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:21:28.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:21:28.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.386 seconds
+[2024-03-19T22:21:59.637+0000] {processor.py:161} INFO - Started process (PID=2431) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:21:59.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:21:59.640+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:21:59.640+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:22:00.001+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:22:00.002+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:22:00.007+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:22:00.005+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:22:00.007+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:22:00.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.392 seconds
+[2024-03-19T22:22:30.842+0000] {processor.py:161} INFO - Started process (PID=2488) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:22:30.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:22:30.846+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:22:30.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:22:31.205+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:22:31.208+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:22:31.213+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:22:31.212+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:22:31.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:22:31.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.415 seconds
+[2024-03-19T22:23:02.120+0000] {processor.py:161} INFO - Started process (PID=2545) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:02.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:23:02.124+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:23:02.124+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:02.479+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:23:02.480+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:23:02.485+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:23:02.484+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:23:02.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:02.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.386 seconds
+[2024-03-19T22:23:33.297+0000] {processor.py:161} INFO - Started process (PID=2603) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:33.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:23:33.302+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:23:33.301+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:33.693+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:23:33.693+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:23:33.698+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:23:33.697+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:23:33.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:23:33.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.426 seconds
+[2024-03-19T22:24:04.755+0000] {processor.py:161} INFO - Started process (PID=2660) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:04.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:24:04.765+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:24:04.764+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:05.356+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:24:05.357+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:24:05.363+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:24:05.362+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:24:05.364+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:05.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.643 seconds
+[2024-03-19T22:24:36.291+0000] {processor.py:161} INFO - Started process (PID=2717) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:36.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:24:36.296+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:24:36.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:36.675+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:24:36.686+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:24:36.693+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:24:36.691+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:24:36.711+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:24:36.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.447 seconds
+[2024-03-19T22:25:06.877+0000] {processor.py:161} INFO - Started process (PID=2774) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:06.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:25:06.880+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:25:06.880+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:07.281+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:25:07.293+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:25:07.321+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:25:07.319+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:25:07.352+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:07.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.525 seconds
+[2024-03-19T22:25:37.473+0000] {processor.py:161} INFO - Started process (PID=2831) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:37.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:25:37.512+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:25:37.511+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:37.886+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:25:37.887+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:25:37.892+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:25:37.891+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:25:37.893+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:25:37.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.446 seconds
+[2024-03-19T22:26:08.553+0000] {processor.py:161} INFO - Started process (PID=2888) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:08.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:26:08.557+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:26:08.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:08.944+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:26:08.945+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:26:08.952+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:26:08.950+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:26:08.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:08.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.423 seconds
+[2024-03-19T22:26:39.364+0000] {processor.py:161} INFO - Started process (PID=2945) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:39.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:26:39.368+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:26:39.367+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:39.712+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:26:39.712+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:26:39.717+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:26:39.716+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:26:39.718+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:26:39.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.376 seconds
+[2024-03-19T22:27:10.476+0000] {processor.py:161} INFO - Started process (PID=3002) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:10.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:27:10.484+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:10.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:10.911+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:27:10.912+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:27:10.917+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:10.916+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:27:10.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:10.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.466 seconds
+[2024-03-19T22:27:40.963+0000] {processor.py:161} INFO - Started process (PID=3061) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:40.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:27:40.966+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:40.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:41.346+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:27:41.346+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:27:41.352+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:41.350+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 205, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:27:41.352+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:41.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.414 seconds
+[2024-03-19T22:27:52.593+0000] {processor.py:161} INFO - Started process (PID=3092) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:52.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:27:52.597+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:52.597+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:52.946+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:27:52.946+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:27:52.951+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:27:52.950+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:27:52.952+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:27:52.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.379 seconds
+[2024-03-19T22:28:23.537+0000] {processor.py:161} INFO - Started process (PID=3149) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:23.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:28:23.541+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:28:23.541+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:23.978+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:28:23.979+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:28:23.984+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:28:23.983+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:28:23.985+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:24.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.468 seconds
+[2024-03-19T22:28:54.120+0000] {processor.py:161} INFO - Started process (PID=3208) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:54.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:28:54.123+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:28:54.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:54.523+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:28:54.523+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:28:54.528+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:28:54.527+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:28:54.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:28:54.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.430 seconds
+[2024-03-19T22:29:55.685+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:29:55.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:29:55.700+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:29:55.699+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:29:59.101+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:29:59.103+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:29:59.116+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:29:59.112+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:29:59.122+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:29:59.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 3.488 seconds
+[2024-03-19T22:30:29.391+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:30:29.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:30:29.395+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:30:29.394+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:30:29.985+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:30:29.986+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:30:29.992+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:30:29.991+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:30:29.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:30:30.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.632 seconds
+[2024-03-19T22:31:00.211+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:00.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:31:00.215+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:31:00.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:00.689+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:31:00.690+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:31:00.696+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:31:00.694+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:31:00.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:00.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.508 seconds
+[2024-03-19T22:31:30.913+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:30.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:31:30.917+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:31:30.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:31.421+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:31:31.422+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:31:31.427+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:31:31.426+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:31:31.428+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:31:31.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.535 seconds
+[2024-03-19T22:32:01.607+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:01.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:32:01.610+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:32:01.610+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:02.091+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:32:02.092+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:32:02.097+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:32:02.096+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:32:02.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:02.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.509 seconds
+[2024-03-19T22:32:32.354+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:32.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:32:32.357+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:32:32.357+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:32.860+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:32:32.861+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:32:32.866+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:32:32.865+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:32:32.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:32:32.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.535 seconds
+[2024-03-19T22:33:03.071+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:03.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:33:03.075+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:33:03.075+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:03.563+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:33:03.564+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:33:03.569+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:33:03.567+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:33:03.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:03.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.519 seconds
+[2024-03-19T22:33:33.803+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:33.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:33:33.807+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:33:33.806+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:34.308+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:33:34.309+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:33:34.315+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:33:34.314+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:33:34.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:33:34.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.542 seconds
+[2024-03-19T22:34:04.485+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:04.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:34:04.488+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:34:04.488+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:04.976+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:34:04.977+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:34:04.982+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:34:04.980+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:34:04.983+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:05.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.525 seconds
+[2024-03-19T22:34:35.189+0000] {processor.py:161} INFO - Started process (PID=114) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:35.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:34:35.193+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:34:35.193+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:35.656+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:34:35.657+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:34:35.661+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:34:35.660+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:34:35.662+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:34:35.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.494 seconds
+[2024-03-19T22:35:05.928+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:05.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:35:05.932+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:35:05.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:06.388+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:35:06.390+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:35:06.395+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:35:06.394+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:35:06.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:06.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.487 seconds
+[2024-03-19T22:35:36.600+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:36.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:35:36.604+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:35:36.603+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:37.069+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:35:37.070+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:35:37.074+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:35:37.072+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:35:37.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:35:37.089+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.494 seconds
+[2024-03-19T22:36:07.320+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:07.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:36:07.324+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:36:07.324+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:07.946+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:36:07.946+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:36:07.950+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:36:07.949+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:36:07.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:07.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.651 seconds
+[2024-03-19T22:36:38.079+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:38.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:36:38.085+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:36:38.084+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:39.955+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:36:39.957+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:36:39.961+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:36:39.959+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:36:39.962+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:36:39.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 1.919 seconds
+[2024-03-19T22:37:10.231+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:10.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:37:10.234+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:37:10.233+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:10.744+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:37:10.745+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:37:10.751+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:37:10.750+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:37:10.752+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:10.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.544 seconds
+[2024-03-19T22:37:40.996+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:40.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/spotify_to_csvs_to_s3.py for tasks to queue
+[2024-03-19T22:37:41.000+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:37:41.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:41.486+0000] {logging_mixin.py:188} INFO - Error: Could not import `airflow.providers.amazon.aws.hooks.s3.S3Hook` while trying to import `airflow.hooks.S3_hook.S3Hook`.
+[2024-03-19T22:37:41.486+0000] {logging_mixin.py:188} INFO - Authenticating User...
+[2024-03-19T22:37:41.490+0000] {logging_mixin.py:188} INFO - [2024-03-19T22:37:41.489+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/spotify_to_csvs_to_s3.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 206, in <module>
+    create_s3connection_task = PythonOperator(
+NameError: name 'PythonOperator' is not defined
+[2024-03-19T22:37:41.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/spotify_to_csvs_to_s3.py
+[2024-03-19T22:37:41.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/spotify_to_csvs_to_s3.py took 0.517 seconds

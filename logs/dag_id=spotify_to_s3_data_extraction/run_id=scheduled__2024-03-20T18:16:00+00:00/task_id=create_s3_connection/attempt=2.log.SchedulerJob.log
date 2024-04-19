@@ -1,0 +1,1 @@
+[2024-03-20T19:04:12.715+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: spotify_to_s3_data_extraction.create_s3_connection scheduled__2024-03-20T18:16:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

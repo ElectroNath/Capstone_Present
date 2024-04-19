@@ -1,0 +1,58 @@
+[2024-03-22T10:22:33.122+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-21T05:17:00+00:00 [queued]>
+[2024-03-22T10:22:33.145+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-21T05:17:00+00:00 [queued]>
+[2024-03-22T10:22:33.146+0000] {taskinstance.py:2193} INFO - Starting attempt 6 of 11
+[2024-03-22T10:22:33.180+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sptoify_to_csv> on 2024-03-21 05:17:00+00:00
+[2024-03-22T10:22:33.196+0000] {standard_task_runner.py:60} INFO - Started process 5758 to run task
+[2024-03-22T10:22:33.204+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_s3_data_extraction_v1', 'sptoify_to_csv', 'scheduled__2024-03-21T05:17:00+00:00', '--job-id', '1208', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmpf_om8d0u']
+[2024-03-22T10:22:33.212+0000] {standard_task_runner.py:88} INFO - Job 1208: Subtask sptoify_to_csv
+[2024-03-22T10:22:33.345+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-21T05:17:00+00:00 [running]> on host ca1809388db1
+[2024-03-22T10:22:33.647+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='spotify_to_s3_data_extraction_v1' AIRFLOW_CTX_TASK_ID='sptoify_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-21T05:17:00+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-21T05:17:00+00:00'
+[2024-03-22T10:22:33.653+0000] {logging_mixin.py:188} INFO - The extract function has been executed and this is data in the next line
+[2024-03-22T10:22:33.654+0000] {logging_mixin.py:188} INFO - Initiating the Endpoint...
+[2024-03-22T10:22:40.627+0000] {logging_mixin.py:188} INFO - Extracting other available tracks
+[2024-03-22T10:22:48.926+0000] {logging_mixin.py:188} INFO - Adding the values of index 0 into the appropriate Keys...
+[2024-03-22T18:47:46.647+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-21T05:17:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-03-22T18:47:46.653+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-21T05:17:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-03-22T18:47:46.659+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
+[2024-03-23T18:11:03.750+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2024-03-23T18:11:09.221+0000] {process_utils.py:131} INFO - Sending 15 to group 5758. PIDs of all processes in the group: [5758]
+[2024-03-23T18:11:09.391+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 5758
+[2024-03-23T18:11:12.268+0000] {taskinstance.py:2483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-03-23T18:11:45.216+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 110, in Spotify_to_CSV
+    data['Artist_Genres'].append(sp.artist(track['artists'][0]['id'])['genres'])
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 392, in artist
+    return self._get("artists/" + trid)
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 323, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 266, in _internal_call
+    response = self._session.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 894, in urlopen
+    return self.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 892, in urlopen
+    retries.sleep(response)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 428, in sleep
+    slept = self.sleep_for_retry(response)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 407, in sleep_for_retry
+    time.sleep(retry_after)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2485, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-03-23T18:11:46.346+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_to_s3_data_extraction_v1, task_id=sptoify_to_csv, execution_date=20240321T051700, start_date=20240322T102233, end_date=20240323T181146
+[2024-03-23T18:11:48.251+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1208 for task sptoify_to_csv (Task received SIGTERM signal; 5758)
+[2024-03-23T18:11:49.673+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=5758, status='terminated', exitcode=1, started='2024-03-22 10:22:32') (5758) terminated with exit code 1

@@ -1,0 +1,16 @@
+[2024-03-24T07:37:11.727+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:30:25.806613+00:00 [queued]>
+[2024-03-24T07:37:11.735+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:30:25.806613+00:00 [queued]>
+[2024-03-24T07:37:11.736+0000] {taskinstance.py:2193} INFO - Starting attempt 3 of 8
+[2024-03-24T07:37:11.748+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): upload_csv_to_s3> on 2024-03-24 07:30:25.806613+00:00
+[2024-03-24T07:37:11.753+0000] {standard_task_runner.py:60} INFO - Started process 2148 to run task
+[2024-03-24T07:37:11.756+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_s3_data_extraction_v3_x64', 'upload_csv_to_s3', 'manual__2024-03-24T07:30:25.806613+00:00', '--job-id', '1373', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmpbi6hf6ub']
+[2024-03-24T07:37:11.759+0000] {standard_task_runner.py:88} INFO - Job 1373: Subtask upload_csv_to_s3
+[2024-03-24T07:37:11.802+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:30:25.806613+00:00 [running]> on host bc244bd8b198
+[2024-03-24T07:37:11.868+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='spotify_to_s3_data_extraction_v3_x64' AIRFLOW_CTX_TASK_ID='upload_csv_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-03-24T07:30:25.806613+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-24T07:30:25.806613+00:00'
+[2024-03-24T07:37:11.878+0000] {base.py:83} INFO - Using connection ID 'aws_conn' for task execution.
+[2024-03-24T07:37:11.879+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-03-24T07:37:13.123+0000] {logging_mixin.py:188} INFO - CSV file 'test.txt' uploaded to S3 bucket: s3://10alytics-capstone-project/10alyticsCapstone/2024-03-24/test.txt
+[2024-03-24T07:37:13.124+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-24T07:37:13.133+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=spotify_to_s3_data_extraction_v3_x64, task_id=upload_csv_to_s3, execution_date=20240324T073025, start_date=20240324T073711, end_date=20240324T073713
+[2024-03-24T07:37:13.177+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-24T07:37:13.193+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

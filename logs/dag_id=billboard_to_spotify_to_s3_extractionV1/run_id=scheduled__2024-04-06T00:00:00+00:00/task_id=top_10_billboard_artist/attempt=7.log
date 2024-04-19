@@ -1,0 +1,15 @@
+[2024-04-10T01:08:45.289+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.top_10_billboard_artist scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-10T01:08:45.322+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: billboard_to_spotify_to_s3_extractionV1.top_10_billboard_artist scheduled__2024-04-06T00:00:00+00:00 [queued]>
+[2024-04-10T01:08:45.324+0000] {taskinstance.py:2193} INFO - Starting attempt 7 of 12
+[2024-04-10T01:08:45.572+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): top_10_billboard_artist> on 2024-04-06 00:00:00+00:00
+[2024-04-10T01:08:45.592+0000] {standard_task_runner.py:60} INFO - Started process 133 to run task
+[2024-04-10T01:08:45.602+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'billboard_to_spotify_to_s3_extractionV1', 'top_10_billboard_artist', 'scheduled__2024-04-06T00:00:00+00:00', '--job-id', '1611', '--raw', '--subdir', 'DAGS_FOLDER/billboard_to_spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmpamxyo9bo']
+[2024-04-10T01:08:45.619+0000] {standard_task_runner.py:88} INFO - Job 1611: Subtask top_10_billboard_artist
+[2024-04-10T01:08:46.155+0000] {task_command.py:423} INFO - Running <TaskInstance: billboard_to_spotify_to_s3_extractionV1.top_10_billboard_artist scheduled__2024-04-06T00:00:00+00:00 [running]> on host 66d8d046c9ac
+[2024-04-10T01:08:46.768+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='billboard_to_spotify_to_s3_extractionV1' AIRFLOW_CTX_TASK_ID='top_10_billboard_artist' AIRFLOW_CTX_EXECUTION_DATE='2024-04-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-06T00:00:00+00:00'
+[2024-04-10T01:08:46.783+0000] {logging_mixin.py:188} INFO - getting top artist
+[2024-04-10T01:08:49.055+0000] {logging_mixin.py:188} INFO - TOP ARTISTS CRAWLED
+[2024-04-10T01:08:49.089+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-04-10T01:08:49.139+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=billboard_to_spotify_to_s3_extractionV1, task_id=top_10_billboard_artist, execution_date=20240406T000000, start_date=20240410T010845, end_date=20240410T010849
+[2024-04-10T01:08:49.194+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-04-10T01:08:49.244+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

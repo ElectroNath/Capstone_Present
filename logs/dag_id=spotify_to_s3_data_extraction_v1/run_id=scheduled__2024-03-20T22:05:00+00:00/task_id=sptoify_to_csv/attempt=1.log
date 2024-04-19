@@ -1,0 +1,85 @@
+[2024-03-20T22:12:06.215+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T22:05:00+00:00 [queued]>
+[2024-03-20T22:12:06.345+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T22:05:00+00:00 [queued]>
+[2024-03-20T22:12:06.467+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-20T22:12:06.966+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sptoify_to_csv> on 2024-03-20 22:05:00+00:00
+[2024-03-20T22:12:07.098+0000] {standard_task_runner.py:60} INFO - Started process 700 to run task
+[2024-03-20T22:12:07.454+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_s3_data_extraction_v1', 'sptoify_to_csv', 'scheduled__2024-03-20T22:05:00+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmpm9ldcu7p']
+[2024-03-20T22:12:07.919+0000] {standard_task_runner.py:88} INFO - Job 165: Subtask sptoify_to_csv
+[2024-03-20T22:12:10.934+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T22:05:00+00:00 [running]> on host ca1809388db1
+[2024-03-20T22:12:11.699+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T22:05:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2024-03-20T22:12:11.707+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: spotify_to_s3_data_extraction_v1.sptoify_to_csv scheduled__2024-03-20T22:05:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2024-03-20T22:12:11.800+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
+[2024-03-20T22:12:13.020+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='spotify_to_s3_data_extraction_v1' AIRFLOW_CTX_TASK_ID='sptoify_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-20T22:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-20T22:05:00+00:00'
+[2024-03-20T22:12:13.045+0000] {logging_mixin.py:188} INFO - The extract function has been executed and this is data in the next line
+[2024-03-20T22:12:13.061+0000] {logging_mixin.py:188} INFO - Initiating the Endpoint...
+[2024-03-20T22:12:15.251+0000] {logging_mixin.py:188} INFO - Extracting other available tracks
+[2024-03-20T22:41:49.799+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 469, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 64, in Spotify_to_CSV
+    top_tracks = sp.next(top_tracks['tracks'])
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 347, in next
+    return self._get(result["next"])
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 323, in _get
+    return self._internal_call("GET", url, payload, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/spotipy/client.py", line 266, in _internal_call
+    response = self._session.request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5)
+[2024-03-20T22:41:50.689+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_to_s3_data_extraction_v1, task_id=sptoify_to_csv, execution_date=20240320T220500, start_date=20240320T221206, end_date=20240320T224150
+[2024-03-20T22:41:51.135+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 165 for task sptoify_to_csv (HTTPSConnectionPool(host='api.spotify.com', port=443): Read timed out. (read timeout=5); 700)
+[2024-03-20T22:41:51.527+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-20T22:41:51.889+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

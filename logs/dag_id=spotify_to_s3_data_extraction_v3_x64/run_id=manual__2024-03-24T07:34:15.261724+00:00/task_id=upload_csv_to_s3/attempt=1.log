@@ -1,0 +1,52 @@
+[2024-03-24T07:34:39.685+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:34:15.261724+00:00 [queued]>
+[2024-03-24T07:34:39.692+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:34:15.261724+00:00 [queued]>
+[2024-03-24T07:34:39.693+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-24T07:34:39.706+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): upload_csv_to_s3> on 2024-03-24 07:34:15.261724+00:00
+[2024-03-24T07:34:39.712+0000] {standard_task_runner.py:60} INFO - Started process 2091 to run task
+[2024-03-24T07:34:39.715+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spotify_to_s3_data_extraction_v3_x64', 'upload_csv_to_s3', 'manual__2024-03-24T07:34:15.261724+00:00', '--job-id', '1367', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3.py', '--cfg-path', '/tmp/tmp11og9tnb']
+[2024-03-24T07:34:39.721+0000] {standard_task_runner.py:88} INFO - Job 1367: Subtask upload_csv_to_s3
+[2024-03-24T07:34:39.764+0000] {task_command.py:423} INFO - Running <TaskInstance: spotify_to_s3_data_extraction_v3_x64.upload_csv_to_s3 manual__2024-03-24T07:34:15.261724+00:00 [running]> on host bc244bd8b198
+[2024-03-24T07:34:39.831+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='spotify_to_s3_data_extraction_v3_x64' AIRFLOW_CTX_TASK_ID='upload_csv_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-03-24T07:34:15.261724+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-24T07:34:15.261724+00:00'
+[2024-03-24T07:34:39.840+0000] {base.py:83} INFO - Using connection ID 'aws_conn' for task execution.
+[2024-03-24T07:34:39.841+0000] {connection_wrapper.py:384} INFO - AWS Connection (conn_id='aws_conn', conn_type='aws') credentials retrieved from login and password.
+[2024-03-24T07:34:41.355+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3.py", line 174, in upload_csv_to_s3
+    s3_hook.load_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 137, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 1104, in load_file
+    client.upload_file(filename, bucket_name, key, ExtraArgs=extra_args, Config=self.transfer_config)
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/s3/inject.py", line 145, in upload_file
+    return transfer.upload_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/boto3/s3/transfer.py", line 371, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/tasks.py", line 269, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/upload.py", line 591, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/s3transfer/utils.py", line 251, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/local/lib/python3.8/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: './test.txt'
+[2024-03-24T07:34:41.387+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=spotify_to_s3_data_extraction_v3_x64, task_id=upload_csv_to_s3, execution_date=20240324T073415, start_date=20240324T073439, end_date=20240324T073441
+[2024-03-24T07:34:41.406+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1367 for task upload_csv_to_s3 ([Errno 2] No such file or directory: './test.txt'; 2091)
+[2024-03-24T07:34:41.459+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-24T07:34:41.482+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

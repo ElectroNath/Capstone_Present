@@ -1,0 +1,28 @@
+[2024-03-25T01:27:01.196+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: TEST_spotify_to_s3_extraction.sptoify_to_csv scheduled__2024-03-24T00:00:00+00:00 [queued]>
+[2024-03-25T01:27:01.221+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: TEST_spotify_to_s3_extraction.sptoify_to_csv scheduled__2024-03-24T00:00:00+00:00 [queued]>
+[2024-03-25T01:27:01.223+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-25T01:27:01.267+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): sptoify_to_csv> on 2024-03-24 00:00:00+00:00
+[2024-03-25T01:27:01.287+0000] {standard_task_runner.py:60} INFO - Started process 13139 to run task
+[2024-03-25T01:27:01.295+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'TEST_spotify_to_s3_extraction', 'sptoify_to_csv', 'scheduled__2024-03-24T00:00:00+00:00', '--job-id', '1436', '--raw', '--subdir', 'DAGS_FOLDER/spotify_to_csvs_to_s3 copy.py', '--cfg-path', '/tmp/tmpvagwso5_']
+[2024-03-25T01:27:01.302+0000] {standard_task_runner.py:88} INFO - Job 1436: Subtask sptoify_to_csv
+[2024-03-25T01:27:01.431+0000] {task_command.py:423} INFO - Running <TaskInstance: TEST_spotify_to_s3_extraction.sptoify_to_csv scheduled__2024-03-24T00:00:00+00:00 [running]> on host bc244bd8b198
+[2024-03-25T01:27:01.704+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Nathaniel Solomon' AIRFLOW_CTX_DAG_ID='TEST_spotify_to_s3_extraction' AIRFLOW_CTX_TASK_ID='sptoify_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-24T00:00:00+00:00'
+[2024-03-25T01:27:01.743+0000] {logging_mixin.py:188} INFO - [' Ariana Grande ', ' Taylor Swift ', ' Morgan Wallen ', ' SZA ', ' Zach Bryan ', ' Drake ', ' Luke Combs ', ' Judas Priest ', ' Olivia Rodrigo ', ' Teddy Swims ']
+[2024-03-25T01:27:02.971+0000] {logging_mixin.py:188} INFO - 66CXWjxzNUsdJxJ2JdwvnR
+[2024-03-25T01:27:02.974+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spotify_to_csvs_to_s3 copy.py", line 92, in Spotify_to_CSV
+    artist_data['artist_id'].extend(artist_id)
+KeyError: 'artist_id'
+[2024-03-25T01:27:03.006+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=TEST_spotify_to_s3_extraction, task_id=sptoify_to_csv, execution_date=20240324T000000, start_date=20240325T012701, end_date=20240325T012703
+[2024-03-25T01:27:03.052+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1436 for task sptoify_to_csv ('artist_id'; 13139)
+[2024-03-25T01:27:03.110+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-25T01:27:03.185+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
