@@ -1,40 +1,54 @@
 # Capstone Project Documentation
 
 ## Project Overview
-The capstone project involves crawling data from Billboard's website to obtain information about the top 10 artists. Using Spotify's API, we extract additional details about these artists, including their albums and tracks. The extracted data is then stored in CSV files and loaded into an Amazon S3 bucket. Finally, dimensional tables are created in Amazon Redshift, and the data is copied from S3 into these tables.
+The capstone project involved crawling data from Billboard's website to obtain information about the top 10 artists. Using Spotify's API, we extracted additional details about these artists, including their albums and tracks. The extracted data was then stored in CSV files and loaded into an Amazon S3 bucket. Finally, dimensional tables were created in Amazon Redshift, and the data was copied from S3 into these tables.
 
 ## Process Overview
+
 ### Crawling Data from Billboard:
-- We crawl Billboard's website to obtain information about the top 10 artists.
-- The crawled data includes the names of the top artists.
+- We crawled Billboard's website to obtain information about the top 10 artists.
+- The crawled data included the names of the top artists.
 
 ### Using Spotify API:
-- We utilize Spotify's API to search for each artist obtained from Billboard.
-- With the Spotify API, we extract the unique artist ID for each artist.
+- Spotify's API was utilized to search for each artist obtained from Billboard.
+- With the Spotify API, we extracted the unique artist ID for each artist.
 
 ### Extracting Albums and Tracks:
-- Using the artist IDs obtained from Spotify, we extract information about the albums of each artist.
-- We limit the extraction to the first 10 albums of each artist.
-- For each album, we extract information about its tracks.
+- Using the artist IDs obtained from Spotify, we extracted information about the albums of each artist.
+- The extraction was limited to the first 10 albums of each artist.
+- For each album, information about its tracks was extracted.
 
 ### Storing Data in CSV Files:
-- The extracted data, including information about artists, albums, and tracks, is stored in CSV files.
-- Each type of data (artists, albums, tracks) has its own CSV file.
+- The extracted data, including information about artists, albums, and tracks, was stored in CSV files.
+- Each type of data (artists, albums, tracks) had its own CSV file.
 
 ### Loading Data into Amazon S3:
-- The CSV files containing the extracted data are uploaded to an Amazon S3 bucket.
-- The bucket serves as a centralized storage location for the project's data.
+- The CSV files containing the extracted data were uploaded to an Amazon S3 bucket.
+- The bucket served as a centralized storage location for the project's data.
 
 ### Creating Dimensional Tables in Redshift:
-- Dimensional tables are created in Amazon Redshift to organize and structure the data.
-- The schema of the dimensional tables depends on the nature of the data and the analysis requirements.
+- Dimensional tables were created in Amazon Redshift to organize and structure the data.
+- The schema of the dimensional tables depended on the nature of the data and the analysis requirements.
+
+## Dimensionality of the Data
+Dimensional tables in Amazon Redshift were designed to organize and structure the data in a way that facilitated efficient querying and analysis. In this project, dimensional tables were created to represent key entities such as artists, albums, and tracks.
+
+- **Artist Dimension Table**: This table contained information about each artist, including their unique identifier (artist_id), name (artist_name), number of followers, popularity score, genre, and total number of albums.
+
+- **Album Dimension Table**: The album dimension table stored details about each album, such as its unique identifier (album_id), name (album_name), type (album_type), total number of tracks, release date (album_release_date), URI, and the artist ID it belonged to (album_artist_id).
+
+- **Track Dimension Table**: This table held information about each track, including its unique identifier (track_id), name (track_name), various audio features like danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time signature, and duration. It also referenced the album ID it belonged to (album_id).
+
+By organizing the data into dimensional tables, a structured schema was created that enabled efficient querying and analysis based on different attributes of the artists, albums, and tracks. This dimensional modeling approach helped in simplifying complex data relationships and optimizing query performance for analytical purposes.
 
 ### Copying Data from S3 to Redshift:
-- Using SQL's COPY command, we copy the data from the CSV files stored in Amazon S3 into the corresponding dimensional tables in Amazon Redshift.
-- Proper mappings are established between the CSV columns and the columns in the Redshift tables.
+- Using SQL's COPY command, the data was copied from the CSV files stored in Amazon S3 into the corresponding dimensional tables in Amazon Redshift.
+- Proper mappings were established between the CSV columns and the columns in the Redshift tables.
 
 ## SQL Placeholder Codes
+
 ### Create Dimensional Tables
+
 ```sql
 -- Placeholder SQL for creating dimensional tables in Redshift
 
@@ -105,7 +119,6 @@ IAM_ROLE 'arn:aws:iam::123456789012:role/your-redshift-role'
 CSV
 IGNOREHEADER 1;
 ```
-
 
 ### Conclusion
 This documentation outlines the process of crawling data from Billboard, extracting additional details from Spotify, storing the data in CSV files, and loading it into Amazon S3. It also includes the creation of dimensional tables in Amazon Redshift and the copying of data from S3 into these tables using SQL commands.
